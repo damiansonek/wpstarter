@@ -1,0 +1,29 @@
+body {
+    background:#fff;
+}
+
+.login form {
+    border:inherit;
+    box-shadow: inherit;
+}
+
+.login form .input {
+    border:2px solid #000;
+    border-radius: inherit;
+}
+
+.wp-core-ui .button span {
+    color: #000;
+}
+
+.wp-core-ui .button-primary {
+    background: #000;
+    border-radius: inherit;
+    border:inherit;
+    transition:ease-in-out 0.2s;
+}
+
+.wp-core-ui .button-primary:hover {
+    opacity: .7;
+    background: #000;
+}

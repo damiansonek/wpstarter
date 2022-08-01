@@ -1,0 +1,31 @@
+// vendors
+@import 'vendors/bootstrap5/bootstrap.scss';
+
+// zmienne, mixiny. style globalne
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/global';
+
+// fonts
+@import 'fonts/fontface';
+@import 'fonts/typography';
+
+//components
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/sidebar';
+
+//blocks
+@import 'blocks/block-test';
+
+//pages 
+@import 'pages/home';
+
+//elements
+@import 'modules/cookies';
+@import 'modules/gutenberg';
+
+//animations
+@import 'animations/keyframes.scss';

@@ -1,26 +1,17 @@
 <?php
 
-// theme files like css and js
-require ('inc/themeFiles.php');
+// front
+require ('includes/front/themeFiles.php');
 
+// admin
+require ('includes/admin/customAdmin.php');
+require ('includes/admin/removeFromAdmin.php');
 
-// wp_nav_menu settings
-require ('inc/registerNavMenus.php');
-
-// custom styles from backend gutenberg
-require ('inc/customGutenberg.php');
-
-// custom gutenberg blocks
-require ('inc/customBlocks.php');
-
-// custom admin
-require ('inc/customAdmin.php');
-
-// remove from admin
-require ('inc/removeFromAdmin.php');
-
-// theme supports
-require ('inc/themeSupport.php');
-
+// functions
+require ('includes/functions/boostrapWalker.php');
+require ('includes/functions/customBlocks.php');
+require ('includes/functions/customGutenberg.php');
+require ('includes/functions/registerNavMenus.php');
+require ('includes/functions/themeSupport.php');
 
 ?>
